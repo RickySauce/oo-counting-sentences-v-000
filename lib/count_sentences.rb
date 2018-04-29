@@ -18,7 +18,7 @@ class String
   def count_sentences
     count = self.split(/[!.?]/)
     count.reject do |charachters|
-      characters == ""
+      charachters == ""
     end
     count.length
   end
